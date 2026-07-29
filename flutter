@@ -1,12 +1,4 @@
-// language: Dart
-import 'package:flutter/material.dart';
-
-// Entry point of the app
-void main() {
-  runApp(MyApp());
-}
-
-// Define the main widget
+idget
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
