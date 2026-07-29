@@ -1,0 +1,26 @@
+// language: Dart
+import 'package:flutter/material.dart';
+
+// Entry point of the app
+void main() {
+  runApp(MyApp());
+}
+
+// Define the main widget
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter Example'),
+        ),
+        body: Center(
+          child: Text(
+            'Hello, Flutter!',
+            style: TextStyle(fontSize: 24),
+          ),
+        ),
+      ),
+    );
